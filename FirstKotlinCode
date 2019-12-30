@@ -1,0 +1,36 @@
+val myName: String = "Asif Ahmed Sourav"
+var myCurrentAge: Int = 27
+var myCurrentSalary: Int = 50000
+
+fun PrintMsg(msg: String): Unit {
+    println(msg)
+}
+
+fun PrintMsgConcat(msg1: String, msg2: String) {
+    println(msg1 + " " + msg2)
+}
+
+fun Sum(a: Int, b: Int): Int {
+    return a + b
+}
+
+fun Minus(a: Int, b: Int): Int {
+    return a - b
+}
+
+fun Multiply(a: Int, b: Int) = a * b
+fun Devide(a: Int, b: Int) = a / b
+
+fun main(args: Array<String>) {
+    println("Hello, world !!!")
+    println("My name is " + myName)
+    println("My age is " + myCurrentAge)
+    println("My salary is " + myCurrentSalary)
+    
+    PrintMsg("Learning Kotlin")
+    PrintMsgConcat("New", "Begining")
+    println("Addition of 10 and 20 = " + Sum(10, 20))
+    println("Minus of 50 and 30 = " + Minus(50, 30))
+    println("Multiplication of 10 and 20 = " + Multiply(10, 20))
+    println("Division of 50 and 25 = " + Devide(50, 25))
+}
